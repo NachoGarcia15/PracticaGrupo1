@@ -15,12 +15,13 @@ public class Jarra {//variables de instancia
     System.out.println("Aqui escribimos todos");
     }
 
-    public int capacidad(){
-        return this.capacidad;
+    public bool llena(){
+        return this.cantidad=this.capacidad;
     }
-
-    public int cantidad(){
-        return this.cantidad;
+    public bool vacia(){
+        return this.cantidad=0;
+    }
+    
     }
 }
 }
