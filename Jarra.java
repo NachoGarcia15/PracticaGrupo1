@@ -23,3 +23,4 @@ public class Jarra {//variables de instancia
         return this.cantidad;
     }
 }
+}
